@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #4422cc;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  display: flex;
+}
+
+aside {
+  width: 200px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-right: 1px solid #ccc;
+}
+
+aside button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: none;
+  border: 1px solid #f2a93b;
+  border-radius: 20px;
+}
+
+.report {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.date-badge, .published-badge {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.date-badge {
+  background-color: #1f5e88;
+  color: white;
+}
+
+.published-badge {
+  background-color: #f2a93b;
+  color: white;
+}
